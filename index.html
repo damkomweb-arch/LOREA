@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#F8F5F0" />
+  <meta name="description" content="LOREA — elegant cakes, flowers and gifts made to be remembered." />
+  <title>LOREA — Made to Be Remembered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement" data-i18n="announcement">Thoughtfully curated cakes & flowers in the UAE.</div>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="LOREA home">LOREA<span class="leaf">⌁</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#collections" data-i18n="navCollections">Collections</a>
+      <a href="#signature" data-i18n="navSignature">Signature Box</a>
+      <a href="#story" data-i18n="navStory">Our Story</a>
+      <a href="#order" data-i18n="navOrder">Order</a>
+    </nav>
+    <button class="lang-toggle" type="button" aria-label="Switch language">AR</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="heroEyebrow">CAKES · FLOWERS · BEAUTIFUL MOMENTS</p>
+        <h1 data-i18n="heroTitle">Made to be<br><em>remembered.</em></h1>
+        <p class="hero-text" data-i18n="heroText">Elegant cake and flower gifts, thoughtfully composed for birthdays, thank-yous and the moments that deserve something special.</p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#order" data-i18n="heroCta">Create your gift</a>
+          <a class="text-link" href="#collections" data-i18n="heroSecondary">Explore collections <span>↘</span></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame"><img src="assets/hero-gift.webp" alt="LOREA cake and flower gift box" fetchpriority="high"></div>
+        <div class="hero-note"><span>01</span><p data-i18n="heroNote">A cake. Fresh flowers. One beautiful box.</p></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Brand values">
+      <span data-i18n="value1">ELEGANCE</span><i>•</i><span data-i18n="value2">QUALITY</span><i>•</i><span data-i18n="value3">SIMPLICITY</span><i>•</i><span data-i18n="value4">CARE</span>
+    </section>
+
+    <section class="section collections" id="collections">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow" data-i18n="collectionEyebrow">THE LOREA EDIT</p><h2 data-i18n="collectionTitle">Choose the feeling.</h2></div>
+        <p data-i18n="collectionIntro">Minimal, romantic and refined — designed to look as memorable as the moment feels.</p>
+      </div>
+      <div class="collection-grid">
+        <article class="collection-card collection-main reveal">
+          <img src="assets/cake-roses.webp" alt="LOREA cake and roses gift box" loading="lazy">
+          <div class="card-overlay"><span>01</span><div><h3 data-i18n="card1Title">Cake & Roses</h3><p data-i18n="card1Text">Our signature pairing in one elegant gift.</p></div></div>
+        </article>
+        <article class="collection-card reveal">
+          <img src="assets/mothers-day.webp" alt="LOREA floral cake gift" loading="lazy">
+          <div class="card-overlay"><span>02</span><div><h3 data-i18n="card2Title">Celebration Cakes</h3><p data-i18n="card2Text">Soft details for birthdays and beautiful milestones.</p></div></div>
+        </article>
+        <article class="editorial-card reveal">
+          <p class="eyebrow" data-i18n="card3Eyebrow">YOUR GIFT, YOUR WAY</p>
+          <h3 data-i18n="card3Title">Choose a flavor. Add roses. Make it personal.</h3>
+          <div class="flavors">
+            <span data-i18n="flavorChocolate">Chocolate</span><span data-i18n="flavorVanilla">Vanilla</span><span data-i18n="flavorCaramel">Caramel</span><span data-i18n="flavorLotus">Lotus</span>
+          </div>
+          <a class="text-link" href="#order" data-i18n="customizeLink">Customize a gift <span>↘</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="signature" id="signature">
+      <div class="signature-image reveal"><img src="assets/hero-gift.webp" alt="LOREA signature gift box" loading="lazy"></div>
+      <div class="signature-copy reveal">
+        <p class="eyebrow" data-i18n="signatureEyebrow">THE SIGNATURE BOX</p>
+        <h2 data-i18n="signatureTitle">Two gestures.<br>One gift.</h2>
+        <p data-i18n="signatureText">A handcrafted cake and fresh roses presented together in LOREA’s signature ivory box, finished with sage ribbon and a personal message.</p>
+        <div class="signature-points">
+          <div><span>01</span><p data-i18n="point1">Choose your cake flavor</p></div>
+          <div><span>02</span><p data-i18n="point2">Select the occasion</p></div>
+          <div><span>03</span><p data-i18n="point3">Add your personal note</p></div>
+        </div>
+        <a href="#order" class="btn btn-outline" data-i18n="signatureCta">Build your box</a>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-mark reveal">L</div>
+      <div class="story-copy reveal">
+        <p class="eyebrow" data-i18n="storyEyebrow">OUR STORY</p>
+        <blockquote data-i18n="storyQuote">“A beautiful gift doesn’t need to be loud. It only needs to feel considered.”</blockquote>
+        <p data-i18n="storyText">LOREA is a modern UAE gifting brand built around elegant simplicity. Every cake, flower and detail is chosen to create a gift that feels personal, polished and easy to remember.</p>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="order-intro reveal">
+        <p class="eyebrow" data-i18n="orderEyebrow">CREATE YOUR GIFT</p>
+        <h2 data-i18n="orderTitle">A few choices.<br>One beautiful message.</h2>
+        <p data-i18n="orderIntro">Build a simple order brief below. We’ll turn your selections into a ready-to-send WhatsApp message.</p>
+      </div>
+      <form class="order-builder reveal" id="orderForm">
+        <label><span data-i18n="labelOccasion">Occasion</span>
+          <select id="occasion"><option>Birthday</option><option>Thank You</option><option>Anniversary</option><option>Just Because</option><option>Other</option></select>
+        </label>
+        <label><span data-i18n="labelFlavor">Cake flavor</span>
+          <select id="flavor"><option>Chocolate</option><option>Vanilla</option><option>Caramel</option><option>Lotus</option></select>
+        </label>
+        <label><span data-i18n="labelFlowers">Flowers</span>
+          <select id="flowers"><option>Signature Roses</option><option>More Roses</option><option>No Flowers</option></select>
+        </label>
+        <label><span data-i18n="labelMessage">Card message</span>
+          <textarea id="message" rows="3" maxlength="140" placeholder="Write a short message..."></textarea>
+        </label>
+        <button class="btn btn-dark" type="submit" data-i18n="orderButton">Create WhatsApp message</button>
+        <p class="form-note" data-i18n="formNote">No payment is taken on this website.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><a class="wordmark footer-logo" href="#top">LOREA<span class="leaf">⌁</span></a><p>MADE TO BE REMEMBERED.</p></div>
+    <div class="footer-links"><a href="#collections" data-i18n="navCollections">Collections</a><a href="#story" data-i18n="navStory">Our Story</a><a href="#order" data-i18n="navOrder">Order</a></div>
+    <p class="copyright">© <span id="year"></span> LOREA. UAE.</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
